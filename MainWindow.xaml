@@ -11,7 +11,9 @@
         <TextBox x:Name="TextBoxUsuario" HorizontalAlignment="Left" Height="40" Margin="325,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" FontSize="28"/>
         <Label Content="Usuario:" HorizontalAlignment="Left" Margin="164,112,0,0" VerticalAlignment="Top" Foreground="Black" Height="60" Width="140" FontSize="36"/>
         <PasswordBox x:Name="PasswodBox1" HorizontalAlignment="Left" Margin="325,197,0,0" VerticalAlignment="Top" Width="205" Height="40" FontSize="28"/>
-        <Button x:Name="ButtonIngresar" Content="Ingresar" HorizontalAlignment="Left" Margin="164,321,0,0" VerticalAlignment="Top" Width="140" Height="49" Background="White" FontSize="29" Click="ButtonIngresar_Click"/>
-        <Button Content="Registrarse" HorizontalAlignment="Left" Margin="483,321,0,0" VerticalAlignment="Top" Width="150" Height="49" FontSize="29" Background="White" Click="Button_Click"/>
+        <Button x:Name="ButtonIngresar" Content="Ingresar" HorizontalAlignment="Left" Margin="422,298,0,0" VerticalAlignment="Top" Width="140" Height="49" Background="White" FontSize="29" Click="ButtonIngresar_Click"/>
+        <Button Content="Registrarse" HorizontalAlignment="Left" Margin="603,298,0,0" VerticalAlignment="Top" Width="150" Height="49" FontSize="29" Background="White" Click="Button_Click"/>
+        <Button Content="Quienes somos?" Name="TxbConcepto" Click="TxbConcepto_Click" FontSize="25" HorizontalAlignment="Left" Margin="10,298,0,0" VerticalAlignment="Top" Width="209" Height="49" Background="White"/>
+        <Button Content="Salir" Name="TxbSalir" Click="TxbSalir_Click" FontSize="29" HorizontalAlignment="Left" Margin="237,298,0,0" VerticalAlignment="Top" Width="105" Height="49" Background="White"/>
     </Grid>
 </Window>

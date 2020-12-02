@@ -30,15 +30,19 @@ namespace historiasUsusarios
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("En desarrollo","Informacion",MessageBoxButton.OK,MessageBoxImage.Information);
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            if (ComboBox1.Text == "Elige un producto")
+            {
+                MessageBox.Show("Debe de elegie un producto");
+            }
             if (ComboBox1.Text == "Licores")
             {
                 MessageBox.Show("En desarrollo");
-               // frame1.NavigationService.Navigate(new Page1());
+                //frame1.NavigationService.Navigate(new Page1());
             }
             if (ComboBox1.Text == "Cigarros")
             {
@@ -101,6 +105,11 @@ namespace historiasUsusarios
             catch (Exception)
             {
             }
+        }
+
+        private void ButtonNuevaVenta_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("En desarrollo", "Informacion", MessageBoxButton.OK, MessageBoxImage.Information);
         }
     }
 }

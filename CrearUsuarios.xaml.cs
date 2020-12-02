@@ -71,5 +71,15 @@ namespace historiasUsusarios
             TextBoxCi.Clear();
             Password.Clear();
         }
+
+        private void ButtonReiniciar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("En desarrollo", "Informacion", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+
+        private void ButtonModificar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("En desarrollo", "Informacion", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
     }
 }

@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.VisualBasic;
 
 namespace historiasUsusarios
 {
@@ -84,5 +85,31 @@ namespace historiasUsusarios
                 MessageBox.Show("usuario o password incorrecto");
             }   
         }
+
+        private void TxbSalir_Click(object sender, RoutedEventArgs e)
+        {
+            if (MessageBox.Show("Realmente desea salir? SI/NO ", "Informacion", MessageBoxButton.YesNo, MessageBoxImage.Information) == MessageBoxResult.Yes)
+            {
+                this.Close();
+            }
+        }
+
+        private void TxbConcepto_Click(object sender, RoutedEventArgs e)
+        {
+            
+            {
+                if (MessageBox.Show("Integrantes:" +
+                    "\n Anthony Jhamil Omonte"+
+                    "\n Rodrigo Alejandro Angulo"+
+                    "\n Maria Magdalena Rodriguez Donaire"+
+                    "\n Rover Serrano Quiroz"+
+                    "\n Edilberto Aviles Zambrana"+
+                    "\n  "+
+                    "\n Desea contactarnos?","", MessageBoxButton.YesNo, MessageBoxImage.Information) == MessageBoxResult.Yes)
+                {
+                    System.Diagnostics.Process.Start("http://www.google.com");
+                }
+            }
+        }  
     }
 }
